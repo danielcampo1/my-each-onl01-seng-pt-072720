@@ -6,7 +6,7 @@ def my_each (array)
 
   while i > 1 && i < 4
     yield(array[i])
-    puts i
+     i
   end
   array
 end
