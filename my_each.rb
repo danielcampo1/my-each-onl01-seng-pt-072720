@@ -6,7 +6,7 @@ def my_each (array)
 
   while i > 1 && i < array.length
     yield(array[i])
-    i += 1
+    i = i + 1
       i
   end
   array
