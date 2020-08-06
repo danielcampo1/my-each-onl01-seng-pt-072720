@@ -9,7 +9,7 @@ def my_each (array)
     i += 1
       i
   end
-  array(i)
+  array
 
 end
 
