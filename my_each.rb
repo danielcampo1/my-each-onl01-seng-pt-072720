@@ -1,7 +1,12 @@
 require "pry"
 
-collection = [1, 2, 3, 4]
-def my_each(collection)
-  "i"
-binding.pry
+
+def my_each (array)
+  i = 0
+
+  while i > 1 && i < 4
+    yield(array[i])
+    puts i
+  end
+  my_each
 end
